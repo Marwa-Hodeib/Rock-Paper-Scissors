@@ -117,61 +117,65 @@ box-shadow: 0 0 10px brown;
 
 
 @media only screen and (max-width: 600px) {
-    header {
-        padding: 10px;
-    }
+        header {
+            padding: 10px;
+        }
+    
+        header > h1 {
+            font-size: 18px;
+        }
+    
+        .score-board-container {
+            padding-top: 30px;
+        }
+    
+        .score-board {
+            width: 150px;
+            font-size: 36px;
+        }
+    
+        .badge {
+            font-size: 12px;
+            padding: 1px 6px;
+        }
 
-    header > h1 {
-        font-size: 18px;
-    }
-
-    .score-board-container {
-        padding-top: 30px;
-    }
-
-    .score-board {
-        width: 150px;
-        font-size: 36px;
-    }
-
-    .badge {
-        font-size: 12px;
-        padding: 1px 6px;
-    }
-
-    #user-label,
-    #computer-label {
-        top: 20px;
-        font-size: 12px;
-        left: -15px;
-        right: -15px;
-    }
-
-    .result {
-        font-size: 24px;
-        padding-top: 20px;
-    }
-
-    .choices {
-        padding-top: 30px;
-    }
-
-    .choice {
-        padding: 8px;
-        margin: 0 10px;
-    }
-
-    #action-message {
-        padding-top: 20px;
-        font-size: 16px;
-    }
-
-    .yellow-glow,
-    .red-glow,
-    .purple-glow {
-        border-width: 2px;
-        box-shadow: 0 0 5px;
-    }
+        #user-label{
+            position: absolute;
+            top: 30px;
+            left: -15px;
+        }
+        
+        #computer-label{
+            position: absolute;
+            top: 30px;
+            right: -15px;
+        }
+    
+        .result {
+            font-size: 24px;
+            padding-top: 20px;
+        }
+    
+        .choices {
+            padding-top: 30px;
+        }
+    
+        .choice {
+            padding: 8px;
+            margin: 0 10px;
+        }
+    
+        #action-message {
+            padding-top: 20px;
+            font-size: 16px;
+        }
+    
+        .yellow-glow,
+        .red-glow,
+        .purple-glow {
+            border-width: 2px;
+            box-shadow: 0 0 5px;
+        }
     }
     
     
